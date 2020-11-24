@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "5.0.2",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "elliot-concept-agency",
+  "version": "1.0.0",
+  "description": "Your concept agency. We work with few selected brands and elevate their online presence.",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -11,18 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "https://github.com/gsambrotta/elliotconceptagency.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "gsambrotta",
+    "url": "https://elliotconcept.agency/"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
+    "url": "https://github.com/gsambrotta/elliotconceptagency.git/issues"
   },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+  "homepage": "https://github.com/gsambrotta/elliotconceptagency.git#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-navigation": "^0.1.6",
