@@ -1,0 +1,61 @@
+---
+layout: layouts/base.njk
+templateClass: project
+---
+<!-- Hero -->
+<section id="slider" class="hero p-0 odd featured">
+  <div class="swiper-container no-slider slider-h-75">
+    <div class="swiper-wrapper">
+
+      <!-- Item 1 -->
+      <div class="swiper-slide slide-center">
+        <img src="assets/images/bg-8.jpg" class="full-image" data-mask="70">
+        <div class="slide-content row text-center">
+          <div class="col-12 mx-auto inner">
+            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">{{ title }}</h1>
+            <!-- <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/#demos">Home</a></li>
+                <li class="breadcrumb-item"><a href="/#pages">Pages</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Single Portfolio</li>
+              </ol>
+            </nav> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About [image] -->
+<section id="about" class="section-1 highlights image-right">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+        <div class="row intro mb-0">
+          <div class="col-12 p-0">
+            <h2 class="featured">{{content_title}}</h2>
+            {{ content | safe }}
+          </div>
+        </div>
+      </div>
+      <div class="gallery col-12 col-md-6">
+        <img src="{{ detail_img_url }}" class="fit-image" alt="{{ detail_img_alt }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<ul class="pagination-projects">
+  {%- set previousProject = collections.projects | getPreviousCollectionItem(page) %}
+  {%- if previousProject %}
+    <li>Previous: <a href="{{ previousProject.url | url }}">{{ previousProject.data.title }}</a>
+    </li>
+  {% endif %}
+  {%- set nextProject = collections.projects | getNextCollectionItem(page) %}
+  {%- if nextProject %}
+    <li>Next: <a href="{{ nextProject.url | url }}">{{ nextProject.data.title }}</a>
+    </li>
+  {% endif %}
+</ul>

@@ -1,0 +1,37 @@
+/* CUSTOM CSS */
+.dark-button,
+.dark-button:visited,
+.dark-button:active {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+}
+
+.dark-button:before {
+  background-image: none;
+}
+
+header .navbar-expand .navbar-nav.action .btn i {
+  display: none;
+}
+
+.hero-arrow-icon {
+  font-size: 2em;
+}
+
+.full-image[data-mask="50"] {
+  opacity: 0.3;
+}
+
+.pagination-projects {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  header .navbar-expand .navbar-nav.action .btn i {
+    display: inline;
+  }
+}

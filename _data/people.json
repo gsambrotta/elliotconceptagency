@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Andrea",
+    "position": "Branding",
+    "socials": [
+      {
+        "url": "https://www.instagram.com/elliotconceptagency/",
+        "icon": "icon-social-instagram"
+      },
+      {
+        "url": "https://www.instagram.com/elliotconceptagency/",
+        "icon": "icon-social-linkedin"
+      },
+      {
+        "url": "https://www.instagram.com/elliotconceptagency/",
+        "icon": "icon-social-twitter"
+      }
+    ]
+  },
+  {
+    "name": "Giorgia",
+    "position": "Development",
+    "socials": [
+      {
+        "url": "https://www.instagram.com/elliotconceptagency/",
+        "icon": "icon-social-linkedin"
+      },
+      {
+        "url": "https://www.instagram.com/elliotconceptagency/",
+        "icon": "icon-social-twitter"
+      }
+    ]
+  }
+]
