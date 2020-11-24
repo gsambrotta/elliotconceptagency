@@ -18,16 +18,45 @@ header .navbar-expand .navbar-nav.action .btn i {
   font-size: 2em;
 }
 
-.full-image[data-mask="50"] {
-  opacity: 0.3;
-}
-
 .pagination-projects {
   list-style: none;
   display: flex;
   justify-content: space-around;
   padding-left: 0;
   padding-bottom: 20px;
+}
+
+.person {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.text-max-800 {
+  line-height: 1.7;
+}
+
+.social-icon-custom {
+  width: 23px;
+  height: 23px;
+}
+
+.social-icon-custom path {
+  stroke: white;
+  stroke-linejoin: round;
+  stroke-width: 20;
+}
+
+.footer .social-icon-custom path {
+  stroke: var(--secondary-color);
+}
+
+.navbar-expand
+  .navbar-nav
+  .nav-link:not(.btn):not(.title):hover
+  .social-icon-custom
+  path {
+  stroke: var(--primary-color);
 }
 
 @media (max-width: 767px) {

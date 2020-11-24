@@ -1,32 +1,38 @@
 [
   {
-    "name": "Andrea",
+    "name": "Andrea Demichelis",
     "position": "Branding",
+    "image": "/assets/images/team/andrea.png",
     "socials": [
       {
-        "url": "https://www.instagram.com/elliotconceptagency/",
+        "url": "https://www.instagram.com/andrea_e4w",
         "icon": "icon-social-instagram"
       },
       {
-        "url": "https://www.instagram.com/elliotconceptagency/",
+        "url": "https://www.linkedin.com/in/andrea-demichelis",
         "icon": "icon-social-linkedin"
       },
       {
-        "url": "https://www.instagram.com/elliotconceptagency/",
+        "url": "https://www.twitter.com/andrea_e4w",
         "icon": "icon-social-twitter"
       }
     ]
   },
   {
-    "name": "Giorgia",
-    "position": "Development",
+    "name": "Giorgia Sambrotta",
+    "position": "UI/UX, Web Development",
+    "image": "/assets/images/team/giorgia.jpg",
     "socials": [
       {
-        "url": "https://www.instagram.com/elliotconceptagency/",
+        "url": "https://designbygio.it",
+        "icon": "icon-link"
+      },
+      {
+        "url": "https://www.linkedin.com/in/designbygio/",
         "icon": "icon-social-linkedin"
       },
       {
-        "url": "https://www.instagram.com/elliotconceptagency/",
+        "url": "https://twitter.com/#!/designbygio",
         "icon": "icon-social-twitter"
       }
     ]

@@ -1,36 +1,24 @@
-# eleventy-base-blog
+# Elliot Concept Agency
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+## Your concept agency. We work with few selected brands and elevate their online presence.
+
+This is the portfolio of Elliot Concept Agency made with 11ty and based on the starter repository [Eleventy](https://github.com/11ty/eleventy)
 
 [![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
 
-## Demos
+## Website
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-* [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
-
-## Deploy this to your own site
-
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
-
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+- [Netlify](https://priceless-kirch-dee3bc.netlify.app/)
 
 ## Getting Started
 
 ### 1. Clone this Repository
 
 ```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
+git clone https://github.com/gsambrotta/elliotconceptagency elliot-concept-agency && cd elliot-concept-agency
 ```
-
 
 ### 2. Navigate to the directory
-
-```
-cd my-blog-name
-```
 
 Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
 
@@ -40,7 +28,7 @@ Specifically have a look at `.eleventy.js` to see if you want to configure any E
 npm install
 ```
 
-### 4. Edit _data/metadata.json
+### 4. Edit \_data/metadata.json
 
 ### 5. Run Eleventy
 
@@ -49,30 +37,41 @@ npx eleventy
 ```
 
 Or build and host locally for local development
+
 ```
 npx eleventy --serve
 ```
 
 Or build automatically when a template changes:
+
 ```
 npx eleventy --watch
 ```
 
 Or in debug mode:
+
 ```
 DEBUG=* npx eleventy
 ```
 
 ### Implementation Notes
 
-* `about/index.md` shows how to add a content page.
-* `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
+- Data:
+  - global data are: `_data/metadata.json`, `_data/people.json`, `_data/services.json`
+  - projects are saved as collection.
+- How a collection works?
+  In 11ty a collection is specify by a tags.
+  In `projects/projects.json` tags is defined as `projects`
+  Each markdown file in the projects folder is a projects and will be display as separate page under `projects/the-markdown-file-name` url.
+- We uses three layouts:
+  - `_includes/layouts/base.njk`: the top level HTML structure
+  - `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
+  - `_includes/layouts/projects.njk`: the projects template (wrapped into `base.njk`)
+- And some reusable components:
+  - `_includes/projectslist.njk`: display a list of all the projects. Used on `index.njk`
+  - `_includes/serviceslist.njk`: display a list of our services. Used on `index.njk`
+  - `_includes/peoplelist.njk`: display a list of the team members. Used on `index.njk`
+  - `_includes/form.njk`: Contact form. Used on `index.njk`
+- Content can be any template format (projects needn’t be markdown, for example). Configuration file for supported templates is in `.eleventy.js` -> `templateFormats`.
+  - Because `assets` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
+- The project feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.

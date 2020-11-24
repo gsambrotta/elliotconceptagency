@@ -1,12 +1,32 @@
 [
   {
-    "title": "Online Marketing",
-    "description": "Some description",
-    "icon": "icon-globe"
+    "title": "Web Development",
+    "description": "",
+    "icon": "icon-rocket"
   },
   {
-    "title": "Online Marketing",
+    "title": "Social Media Marketing",
     "description": "Some description",
-    "icon": "icon-screen-smartphone"
+    "icon": "icon-speech"
+  },
+  {
+    "title": "Consulting",
+    "description": "Some description",
+    "icon": "icon-direction"
+  },
+  {
+    "title": "Branding",
+    "description": "Some description",
+    "icon": "icon-diamond"
+  },
+  {
+    "title": "Talent Management",
+    "description": "Some description",
+    "icon": "icon-trophy"
+  },
+  {
+    "title": "Public Relations",
+    "description": "Some description",
+    "icon": "icon-microphone"
   }
 ]

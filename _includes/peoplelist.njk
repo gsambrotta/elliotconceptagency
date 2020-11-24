@@ -2,13 +2,13 @@
     <div class="swiper-slide slide-center text-center item">
         <div class="row card">
             <div class="col-12">
-                <img src="assets/images/team-1.jpg" alt="Adams Baker" class="person">
+                <img src="{{people.image}}" alt="{{people.name}}" class="person">
                 <h4>{{people.name}}</h4>
                 <p>{{people.position}}</p>
                 <ul class="navbar-nav social share-list ml-auto">
                     {% for social in people.socials | reverse %}
                         <li class="nav-item">
-                            <a href="{{ social.url }}" class="nav-link">
+                            <a href="{{ social.url }}" target="_blank" class="nav-link">
                                 <i class="{{social.icon}}"></i>
                             </a>
                         </li>

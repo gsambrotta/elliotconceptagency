@@ -1219,7 +1219,7 @@ jQuery(function ($) {
   "use strict";
 
   if ($('input[name="reCAPTCHA"]').length) {
-    let siteKey = "6LfnW-cZAAAAAOwP1vGA8S0du58tqOGZCXjoTvKt"; // Put your site key here
+    let siteKey = "6LfbG-wZAAAAAJ2jPeEJMkgC_2odmzX1KpOboVtE"; // Put your site key here
 
     if (siteKey) {
       $('input[name="reCAPTCHA"]').attr("data-key", siteKey);
