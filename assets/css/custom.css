@@ -10,26 +10,12 @@
   background-image: none;
 }
 
-header .navbar-expand .navbar-nav.action .btn i {
-  display: none;
-}
-
-.hero-arrow-icon {
-  font-size: 2em;
-}
-
 .pagination-projects {
   list-style: none;
   display: flex;
   justify-content: space-around;
   padding-left: 0;
   padding-bottom: 20px;
-}
-
-.person {
-  max-width: 150px;
-  max-height: 150px;
-  object-fit: cover;
 }
 
 .text-max-800 {
@@ -45,10 +31,25 @@ header .navbar-expand .navbar-nav.action .btn i {
   stroke: white;
   stroke-linejoin: round;
   stroke-width: 20;
+  fill: none;
 }
 
-.footer .social-icon-custom path {
-  stroke: var(--secondary-color);
+header .navbar-expand .navbar-nav.action .btn i {
+  display: none;
+}
+
+.logo-cities {
+  font-weight: 100;
+  font-family: Helvetica;
+  font-size: 9px;
+  padding: 0;
+  margin: 0;
+  padding-top: 8px;
+  margin-left: 9px;
+}
+
+.navbar .nav-container {
+  justify-content: flex-end;
 }
 
 .navbar-expand
@@ -57,6 +58,20 @@ header .navbar-expand .navbar-nav.action .btn i {
   .social-icon-custom
   path {
   stroke: var(--primary-color);
+}
+
+.hero-arrow-icon {
+  font-size: 2em;
+}
+
+.footer .social-icon-custom path {
+  stroke: var(--secondary-color);
+}
+
+.person {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
 }
 
 @media (max-width: 767px) {
