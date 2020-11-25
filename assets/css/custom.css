@@ -68,10 +68,39 @@ header .navbar-expand .navbar-nav.action .btn i {
   stroke: var(--secondary-color);
 }
 
+.card:hover .image-over:before {
+  background: linear-gradient(
+    45deg,
+    var(--secondary-color) 15%,
+    var(--primary-color) 65%
+  );
+  opacity: 0.75;
+}
+
+.offers .card {
+  height: 500px;
+}
+
+.offers .items .item .icon {
+  margin: 20px auto;
+}
+
+.showcase .card {
+  height: 400px;
+}
+
 .person {
   max-width: 150px;
   max-height: 150px;
   object-fit: cover;
+}
+
+/* Project Layout */
+.big_img_one {
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 1000px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 767px) {

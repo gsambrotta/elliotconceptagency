@@ -41,6 +41,7 @@ module.exports = function (eleventyConfig) {
 
   // folders that will not be compiled as template
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("php");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

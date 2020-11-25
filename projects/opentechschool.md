@@ -1,19 +1,35 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
-tags:
-  - number-2
+title: Open Tech School
+description: Movement offering free tech education
+bg_img_url: /assets/images/ots/banner.png
+bg_img_alt: open tech school
+nav_tags: strategy, development
+content_title: Movement offering free tech education
+detail_img_url: /assets/images/ots/squid.png
+detail_img_alt: open tech school case study
+single_img_url: /assets/images/ots/homepage.png
+single_img_alt: opentechschool homepage
+big_img_one_url: /assets/images/ots/mobile.jpg
+big_img_one_alt: opentechschool detail
 layout: layouts/project.njk
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+OpenTechSchool is a non-profit organization dedicated to make tech education free and open to everybody.
 
-## Section Header
+When our developer arrived, the organisation already had a website but it needed a strong restyling.
 
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
+To build the new platform correctly, she had to take into consideration the 4 groups that use OpenTechSchool: Students, Coaches, Organisers, and Sponsors. This was the biggest challenge of the project. Through a very narrowed and specific UX process, she has been able to come up with a new design that would work for all 4 groups.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+<blockquote>
+Each of these groups, in fact, would use the platform in different ways but, at the same time, she had to make sure that they could all find the information they needed very quickly and easily.
+</blockquote>
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+This brand, moreover, had several requirements:
+
+- Open Source Friendliness - She had to make sure that different types of people, technical and non, could easily access and edit the content
+- Flexibility - The platform had to be built in a way that would facilitate a potential migration
+- Data Friendly - The website had to merge data from different third-party libraries
+
+In order to meet all these requirements, the website has been written with Nextjs: a React
+
+<a href="https://www.opentechschool.org/" target="_about">https://www.opentechschool.org/</a>

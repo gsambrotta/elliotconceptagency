@@ -1,32 +1,32 @@
 [
   {
     "title": "Web Development",
-    "description": "",
+    "description": "We all wish we were as good at writing code as Keanu Reeves was in Matrix but if you are not there yet, we can take control from here and welcome you to the Wonderland of programming. From outstanding e-commerces to complex web platforms, our diverse team of web developers is ready to accompany you in your path and show you how deep the rabbit hole goes. ",
     "icon": "icon-rocket"
   },
   {
-    "title": "Social Media Marketing",
-    "description": "Some description",
+    "title": "Social Media Management",
+    "description": "The Social Media universe is much more than simply taking a picture and posting it: It’s producing the right content, it’s creating a connection with your audience, it’s telling a story, your story, and we are here to do just that! You can now focus on building your business, we’ll take care of the rest.",
     "icon": "icon-speech"
   },
   {
-    "title": "Consulting",
-    "description": "Some description",
-    "icon": "icon-direction"
-  },
-  {
-    "title": "Branding",
-    "description": "Some description",
+    "title": "Strategy",
+    "description": "If you have a business idea but you don’t know how to go with it, we are your perfect partner. We will work with you to strategize your next steps, the collaborations to create, the channels to take, and find you the best technical solutions to do that. Basically, we will create your personal roadmap to success.",
     "icon": "icon-diamond"
   },
   {
-    "title": "Talent Management",
-    "description": "Some description",
-    "icon": "icon-trophy"
+    "title": "Public Relations",
+    "description": "If you started your business, chances are you too dreamed about seeing your face and logo on a magazine and your work recognized. Well, we are here to help you reach that goal and get your name out in the Media world.",
+    "icon": "icon-microphone"
   },
   {
-    "title": "Public Relations",
-    "description": "Some description",
-    "icon": "icon-microphone"
+    "title": "Consulting",
+    "description": "Get a dedicated person from our team to work with you and your team, and borrow our knowledge and experience to boost your results and maximize your technology.",
+    "icon": "icon-direction"
+  },
+  {
+    "title": "Talent Management",
+    "description": "We strongly believe that brands are not just made by companies and logos, brands can be people too, and so can you! Become the artist, athlete, or gamer that you were destined to be, and let us show the world your true potential. This is a coming soon service, contact us to pre-subscribe.",
+    "icon": "icon-trophy"
   }
 ]

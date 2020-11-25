@@ -1,12 +1,12 @@
 ---
 title: Elliot for Water
-description: Ethical Search Engine for water
-bg_img_url: assets/images/logo.png
+description: The search engine that donates fresh drinking water with every search
+bg_img_url: /assets/images/efw/banner.jpg
 bg_img_alt: elliot for water project
-nav_tags: concept, branding, development
-content_title: The ethical search engine
-detail_img_url: assets/images/logo.png
-detail_img_alt: elliot for water home page
+nav_tags: strategy, development, social, press
+content_title: The search engine that donates fresh drinking water with every search
+detail_img_url: /assets/images/efw/profile.png
+detail_img_alt: elliot for water case study
 layout: layouts/project.njk
 ---
 

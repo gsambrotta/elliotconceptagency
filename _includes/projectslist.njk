@@ -1,17 +1,20 @@
 {% for project in projectslist | reverse %}
-  <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups="{{project.data.nav_tags}}">
-    <a href="{{ project.url | url }}" class="row card p-0 text-center">
-        <div class="gallery">
-            <img src="{{project.data.bg_img_url}}" alt="{{project.data.bg_img_alt}}">
-        </div> 
-        <div class="card-caption col-12 p-0">
-            <div class="card-body">
-                <h4 class="m-0">{{project.data.title}}</h4>
-            </div>
-            <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                <p>{{project.data.description}}</p>
+    <div class="col-12 col-md-6 col-lg-6 item filter-item" data-groups="{{project.data.nav_tags}}">
+        <div class="row card p-0 text-center">
+            <a href="{{ project.url | url }}" class="image-over">
+                <div class="gallery">
+                    <img src="{{project.data.detail_img_url}}" alt="{{project.data.detail_img_alt}}">
+                </div>
+            </a>
+
+            <div class="card-caption col-12 p-0">
+                <div class="card-body">
+                    <h4 class="m-0">{{project.data.title}}</h4>
+                </div>
+                <div class="card-footer d-lg-flex align-items-center justify-content-center">
+                    <p>{{project.data.description}}</p>
+                </div>
             </div>
         </div>
-    </a> 
-  </div>
+    </div>
 {% endfor %}
