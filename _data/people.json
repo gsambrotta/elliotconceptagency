@@ -20,7 +20,7 @@
   },
   {
     "name": "Giorgia Sambrotta",
-    "position": "UI/UX, Web Development",
+    "position": "UI/UX, Web Developer",
     "image": "/assets/images/team/giorgia.jpg",
     "socials": [
       {
@@ -34,6 +34,21 @@
       {
         "url": "https://twitter.com/#!/designbygio",
         "icon": "icon-social-twitter"
+      }
+    ]
+  },
+  {
+    "name": "Conrad Parker",
+    "position": "Software Developer",
+    "image": "/assets/images/team/conrad.jpg",
+    "socials": [
+      {
+        "url": "https://www.linkedin.com/in/conradjparker/",
+        "icon": "icon-social-linkedin"
+      },
+      {
+        "url": "https://sunseasolutions.com/",
+        "icon": "icon-link"
       }
     ]
   }

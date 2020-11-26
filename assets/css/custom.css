@@ -109,6 +109,12 @@ header .navbar-expand .navbar-nav.action .btn i {
   max-width: 1000px;
 }
 
+.highlights .gallery .fit-image {
+  object-fit: contain;
+  object-position: top;
+  height: auto;
+}
+
 @media (max-width: 767px) {
   header .navbar-expand .navbar-nav.action .btn i {
     display: inline;

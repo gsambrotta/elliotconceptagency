@@ -7,10 +7,10 @@ nav_tags: strategy, development, social, press
 content_title: The search engine that donates fresh drinking water with every search
 detail_img_url: /assets/images/efw/profile.png
 detail_img_alt: elliot for water case study
-single_img_url: /assets/images/efw/homepage.jpg
-single_img_alt: elliot for water homepage
-big_img_one_url: /assets/images/efw/full.png
-big_img_one_alt: elliot for water detail
+single_img_url: /assets/images/efw/efw_full_1.jpg
+single_img_alt: elliot for water search engine
+big_img_one_url: /assets/images/efw/efw_full_2.jpg
+big_img_one_alt: elliot for water details
 layout: layouts/project.njk
 ---
 
