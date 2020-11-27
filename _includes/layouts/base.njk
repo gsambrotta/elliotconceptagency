@@ -74,7 +74,7 @@
                                 </li> #}
                             </ul>
                         </div>
-                        <div class="row">
+                        <div class="row nav-second-row">
                             <!-- Navbar Icons -->
                             <ul class="navbar-nav icons">
                                 <!-- Hide Search for now
@@ -128,6 +128,8 @@
             <main>
 
                 {{ content | safe }}
+
+                {% include "form.njk" %}
             </main>
 
             <!-- Footer -->

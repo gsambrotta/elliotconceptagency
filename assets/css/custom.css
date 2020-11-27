@@ -60,6 +60,10 @@ header .navbar-expand .navbar-nav.action .btn i {
   stroke: var(--primary-color);
 }
 
+.nav-second-row {
+  padding-top: 10px;
+}
+
 .hero-arrow-icon {
   font-size: 2em;
 }
@@ -78,7 +82,7 @@ header .navbar-expand .navbar-nav.action .btn i {
 }
 
 .offers .card {
-  height: 500px;
+  height: 100%;
 }
 
 .offers .items .item .icon {
@@ -109,10 +113,14 @@ header .navbar-expand .navbar-nav.action .btn i {
   max-width: 1000px;
 }
 
-.highlights .gallery .fit-image {
+.highlights .fit-image {
   object-fit: contain;
   object-position: top;
   height: auto;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 @media (max-width: 767px) {
